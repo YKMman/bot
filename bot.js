@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const dotenv = require('dotenv').config()
-const webAppUrl = 'https://31.129.45.49:4173/';
+const webAppUrl = 'https://next-bot-six.vercel.app/';
 
 const bot = new TelegramBot(process.env.API_KEY_BOT, {
     polling: true
