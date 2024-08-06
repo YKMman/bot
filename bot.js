@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const dotenv = require('dotenv').config()
-const webAppUrl = 'https://89.223.31.235:3000/';
+const webAppUrl = 'https://trucki-service.tech/';
 
 const bot = new TelegramBot(process.env.API_KEY_BOT, {
     polling: true
